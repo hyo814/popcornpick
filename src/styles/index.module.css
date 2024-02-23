@@ -1,0 +1,89 @@
+.movie_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.movie_ask_box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.movie_language, .movie_selected_sort, .search {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.movie_language:focus, .movie_selected_sort:focus, .search:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.search {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.search:hover {
+    background-color: #0056b3;
+}
+
+.hr {
+    width: 100%;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.search_answer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.movie_box {
+    width: 80%;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.movie_title {
+    margin: 0;
+    color: #333;
+}
+
+.movie_title_detail {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.desc, .vote, .date {
+    margin-top: 10px;
+}
+
+.img {
+    border-radius: 5px;
+}
+
+.pagination {
+    gap: 10px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination:disabled {
+    background-color: #ccc;
+    cursor: default;
+}
