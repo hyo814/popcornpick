@@ -1,6 +1,6 @@
-# (주)온코메드 코테 (PopcornPick)
+# PopcornPick
 
-## 과제 목적 : 최신 영화 정보를 제공하는 웹 애플리케이션
+## 목적 : 최신 영화 정보를 제공하는 웹 애플리케이션
 
 ### 요구 사항 버젼
 - React 버전 18 이상이 필요합니다.
@@ -54,13 +54,7 @@
 ├── next.config.mjs
 ├── next-env.d.ts
 ├── package.json
-├── package-lock.json
-├── README.md
-└── tsconfig.json
-
-```
-
-### 요청 받은 과제
+├── pac정
 1. 아래는 현재 상영중인 영화 정보 리스트를 보여주는 API입니다.React-Query를 이용해서 아래 API를 화면에 나열해 주시면 됩니다.(혹여나 React-Query가 익숙하지 않으면 다른 방법으로 구현하셔도 됩니다)
 > react-query && recoil 을 통해서 해결 완료!
 
